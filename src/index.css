@@ -7,3 +7,9 @@
 :root {
   font-family: "Inter", sans-serif;
 }
+
+.bg-pei {
+  background: rgb(0,14,42);
+  background: linear-gradient(90deg, rgba(0,14,42,1) 0%, rgba(9,12,41,1) 30%, rgba(24,5,34,1) 70%, rgba(35,3,32,1) 100%);
+  filter: brightness(1);
+}

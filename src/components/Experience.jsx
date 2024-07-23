@@ -35,7 +35,7 @@ const Experience = () => {
                     <p className="mb-4 text-neutral-400">{experience.description}</p>
                     <div className="flex flex-wrap">
                         {experience.technologies.map((tech, index) => (
-                                <span key={index} className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-small font-medium text-purple-800">
+                                <span key={index} className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-small font-medium text-sky-400">
                                     {tech}
                                 </span>
                         ))}
