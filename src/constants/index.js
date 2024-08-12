@@ -4,7 +4,7 @@ import project3 from "../assets/projects/mr.gamer.png";
 import project4 from "../assets/projects/muara-jambi.png";
 import project5 from "../assets/projects/zanpay-dashboard-template.png";
 
-export const HERO_CONTENT = `Hi! I am FeryFebriawan, as a frontend web developer I am responsible for the development of interfaces on a website or web application.
+export const HERO_CONTENT = `Hi! I am Fery Febriawan, as a frontend web developer I am responsible for the development of interfaces on a website or web application.
 I focus on developing user interfaces that are attractive, interactive, and responsive,
 that can be accessed by users through a variety of browser devices.
 to learn new technologies and solve complex problems.`;
