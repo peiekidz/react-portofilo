@@ -24,7 +24,7 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Website Payment App",
+    title: "Website Virtual Reality Software Platform",
     image: project6,
     url:
       "https://virtual-r-sepia.vercel.app/",
