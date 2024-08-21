@@ -3,6 +3,7 @@ import project2 from "../assets/projects/baladstudio.png";
 import project3 from "../assets/projects/mr.gamer.png";
 import project4 from "../assets/projects/muara-jambi.png";
 import project5 from "../assets/projects/zanpay-dashboard-template.png";
+import project6 from "../assets/projects/virtualR.png";
 
 export const HERO_CONTENT = `Hi! I am Fery Febriawan, as a frontend web developer I am responsible for the development of interfaces on a website or web application.
 I focus on developing user interfaces that are attractive, interactive, and responsive,
@@ -24,37 +25,44 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "Website Payment App",
+    image: project6,
+    url:
+      "https://virtual-r-sepia.vercel.app/",
+    technologies: ["HTML", "CSS", "ReactJS"],
+  },
+  {
+    title: "Website Payment App",
     image: project1,
     url:
-      "www.Travel-Pulsa.com",
+      "#",
     technologies: ["HTML", "CSS", "Javacript", "Laravel"],
   },
   {
     title: "Website IT Consultan",
     image: project2,
     url:
-      "www.baladstudio.com",
+      "#",
     technologies: ["HTML", "CSS", "Javascript"],
   },
   {
     title: "Website Game Review",
     image: project3,
     url:
-      "www.mrgammer.com",
+      "#",
     technologies: ["HTML", "CSS", "Javascript", "Laravel"],
   },
   {
     title: "Website Dashboard Display Interactive",
     image: project4,
     url:
-      "www.muara-jambi.com.",
+      "#",
     technologies: ["HTML", "CSS", "Javascript", "Laravel"],
   },
   {
     title: "Website Dashboard Template",
     image: project5,
     url:
-      "www.Zanpay-dashboard.com",
+      "#",
     technologies: ["HTML", "CSS", "Javascript"],
   },
 ];

@@ -20,7 +20,7 @@ const Projects = () => {
                     transition={{duration: 1}} 
                     className="w-full lg:w-1/4"
                     >
-                        <img src={project.image} width ={190 } height={100} alt={project.title} className="mb-6 rounded"/>
+                        <img src={project.image} alt={project.title} className="mb-6 rounded w-64"/>
                     </motion.div>
                     <motion.div
                     whileInView={{opacity: 1, x: 0}}
@@ -29,10 +29,13 @@ const Projects = () => {
                     className="w-full max-w-xl lg:w-3/4 flex-row"
                     >
                         <h6 className="mb-2 font-semibold">{project.title}</h6>
-                        {/* <p className="mb-4 text-neutral-400"><a href="">{project.url}</a></p> */}
                         {project.technologies.map((tech, index) => (
                             <span key={index} className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-sky-400">{tech}</span>
                         ))}
+                        <p className="mt-3 text-neutral-400">
+                            <button className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-sky-400 hover:bg-sky-600 hover:text-black">
+                                <a href={project.url}>Preview</a>
+                            </button></p>
                     </motion.div>
                 </div>
             ))}
